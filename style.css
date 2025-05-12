@@ -1,0 +1,271 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+ #main_section{
+    background-image:url(images/header-hero.jpg);
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+
+} 
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+} 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+    
+} 
+ .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    
+    
+} 
+.nav-links a{
+    font-size: 18px;
+    color: white;
+} 
+ .nav-links .bttn-1{
+    padding: 15px 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+} 
+
+.main_contant{
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+} 
+ .main_contant .text_1{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+} 
+.main_contant .text-2{
+    font-size: 98px;
+    color: white;
+    margin-top: -10px;
+} 
+ .main_contant p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+} 
+
+ .bttn-2{
+    padding: 10px 25px;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+} 
+
+ .menu_bttn{
+    
+    display: none;
+} 
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav-links{
+        flex-direction: column;
+        background: black;
+        position: absolute;
+        top: 0;
+       
+        width: 80%;
+        height: 100vh;
+        padding-top: 10px;
+         transition: 0.5s;
+         left: -900px;
+         
+        
+    }
+    .nav-links.active{
+        right: 0;
+        left: 0;
+    }
+    .menu_bttn {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        padding: 10px;
+    }
+    .wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .buinsness_wrapper{
+        flex-direction: column;
+    }
+    .buisness_2 img{
+        margin-top: 25px;
+    }
+    .footer_contant{
+        flex-direction: column;
+    }
+    .footer_contant nav ul{
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .footer_contant img{
+        padding-bottom: 19px;
+    }
+  } 
+
+ .wrapper{
+    display: flex;
+    justify-content: space-between;
+ } 
+
+ .services_title{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-weight: 500;
+ }
+ .card_1 h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 20px;
+ }
+ .card_1 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+ .card_2 h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 20px;
+ }
+ .card_2 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+ .card_3 h2{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 20px;
+ }
+ .card_3 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+   
+ }
+
+ .contant{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 50px;
+    
+ }
+ .testimonial{
+    margin-top: 50px;
+    background-color: #bdc1b2;
+ }
+ .buisness{
+    padding: 50px 50px;
+ }
+ .buinsness_wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+ .buisness_1 h2{
+    font-size:35px;
+    line-height: 40px;
+    font-weight: 400;
+    padding: 25px 0px;
+ }
+ .buisness_1 p{
+    font-size:18px;
+    line-height: 20px;
+    font-weight: 400;
+    
+ }
+ .bttn-4{
+    padding: 15px 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(182, 186, 171);
+    border-radius: 5px;
+    color: rgb(182, 186, 171);
+    margin-top: 25px;
+ }
+ .buisness_2 img{
+    width: 360px;
+ }
+
+ #last_banner{
+    background-image: url(images/footer-hero-big.jpg);
+   background-position: center;
+   background-size: cover;
+   min-height: 60vh;
+
+ }
+ .lasts_banner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+ }
+ 
+ .lasts_banner h2{
+    font-size: 48px;
+    font-weight: 500;
+ }
+ .lasts_banner p{
+    font-size: 18px;
+   padding: 10px;
+ }
+.footer_contant nav ul li {
+    display: flex;
+    list-style: none;
+    
+    font-size: 18px;
+}
+.footer_contant nav ul  {
+    display: flex;
+    gap: 10px;
+    color: black;
+}
+ .footer_contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    
+    
+ }
+ .footer_contant h2{
+    font-size: 22px;
+   
+ }
